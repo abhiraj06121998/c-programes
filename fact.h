@@ -10,3 +10,11 @@ main()
   }
   printf("\n fact=%d",fact);
 }
+void add()
+{
+  int a,b,c;
+  printf("\n enter enter the two no=");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("\n addition of two no",c);
+}
